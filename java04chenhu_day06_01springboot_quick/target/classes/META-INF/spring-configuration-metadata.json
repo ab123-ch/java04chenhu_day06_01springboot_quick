@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "cn.chenhu.demo.ReadYmlController12",
+      "sourceType": "cn.chenhu.demo.ReadYmlController12"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.addr",
+      "type": "java.lang.String",
+      "sourceType": "cn.chenhu.demo.ReadYmlController12"
+    },
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.chenhu.demo.ReadYmlController12"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "cn.chenhu.demo.ReadYmlController12"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,47 @@
+#普通数据的配置，冒号后带空格
+name: zhangsan
+
+#服务器的端口号
+server:
+    port: 8082
+
+#对象的配置
+#person:
+#    name: zhangsan
+#    age: 18
+#    addr: hangzhou
+
+
+#对象的行内配置
+#person: {name: zhangsan,age: 18,addr: hangzhou}
+
+#数组、集合(普通字符串)
+city:
+  - hangzhou
+  - shanghai
+  - beijing
+
+#数组、集合的行内配置(等价)
+#city: [hangzhou,shanghai,beijing]
+
+#数组、集合(对象数据)
+student:
+  - name: zhangsan
+    age: 18
+    addr: hangzhou
+  - name: rose
+    age: 16
+    addr: shanghai
+
+#数组、集合的行内配置(对象数据，等价)
+#student: [{name: zhangsan,age: 18,addr: hangzhou,},{name: rose,age: 16,addr: shanghai}]
+
+#map的配置
+map:
+  key1: value1
+  key2: value2
+
+person:
+  name: zhangsan
+  addr: ningbo
+  age: 20

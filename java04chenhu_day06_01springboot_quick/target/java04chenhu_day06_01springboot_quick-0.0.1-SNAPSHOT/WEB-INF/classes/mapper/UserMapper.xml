@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.chenhu.mapper.UserMapper">
+<!--    查询所有用户-->
+    <select id="queryUserList" resultType="user">
+        select * from user
+    </select>
+
+<!--    根据Id查询用户-->
+    <select id="queryById" parameterType="int" resultType="user">
+        select * from user where id=#{id}
+    </select>
+
+<!--    注册用户-->
+    <insert id="querysave" parameterType="cn.chenhu.domian.User">
+        insert into user (username,name,telephone,password,sex,email,birthday)
+        values (#{username},#{name},#{telephone},#{password},#{sex},#{email},#{birthday});
+    </insert>
+</mapper>
